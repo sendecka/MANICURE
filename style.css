@@ -1,0 +1,214 @@
+/*-------------------------------CSS-----------------------------------*/
+h1 {
+  font-family: "Marcellus", serif;
+  font-size: 26px;
+  color: #c46f69;
+}
+h1:hover {
+  color: #424244;
+}
+h2 {
+  font-family: "EB Garamond", serif;
+  font-size: 16px;
+  color: #424244;
+}
+h2:hover {
+  color: #c46f69;
+}
+h3 {
+  font-family: "Marcellus", serif;
+  font-size: 32px;
+  color: #424244;
+}
+h4 {
+  font-family: "EB Garamond", serif;
+  color: #424244;
+  font-size: 16px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+h5 {
+  font-family: "EB Garamond", serif;
+  color: #424244;
+  font-size: 16px;
+}
+h6 {
+  font-family: "Marcellus", serif;
+  color: #424244;
+  font-size: 48px;
+}
+p {
+  font-family: "EB Garamond", serif;
+  color: #424244;
+  font-size: 24px;
+}
+a {
+  font-family: "Cinzel", serif;
+  font-size: 24px;
+  color: #424244;
+  text-decoration: none;
+}
+a:hover {
+  color: #c46f69;
+}
+button {
+  background-color: #f2f1ef;
+  border: 1px solid #c2c1c1;
+}
+button:hover {
+  border: 1px solid #c46f69;
+}
+
+/*--------------------------------#-----------------------------------*/
+#id01 {
+  border: 1px solid #f2f1ef;
+  padding: 30px 30px 30px 30px;
+}
+#id08 {
+  background-color: white;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  margin: 20px;
+}
+#back {
+  background-image: url(./PHOTO-20.jpg);
+  height: 30vh;
+  position: static;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  opacity: 0.6;
+}
+
+#back1 {
+  background-image: url(./PHOTO-17.jpg);
+  height: 30vh;
+  position: static;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  opacity: 0.6;
+}
+/*--------------------------------.-----------------------------------*/
+.col01 {
+  background-color: #f2f1ef;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #dddddd;
+}
+.id000 {
+  background-color: #f2f1ef;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.img02 {
+  background-image: url(./PHOTO-03.png);
+  width: 130px;
+  margin-top: -150px;
+  background-repeat: no-repeat;
+}
+.img03 {
+  background-image: url(./PHOTO-04.png);
+  width: 130px;
+  margin-top: -150px;
+  background-repeat: no-repeat;
+  right: 0px;
+}
+.img01:hover {
+  opacity: 0.4;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #f2f1ef;
+}
+.id02:hover .overlay {
+  opacity: 0.6;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.id02 {
+  position: relative;
+}
+/*--------------------------------MEDIA-----------------------------------*/
+@media (min-width: 700px) and (max-width: 1200px) {
+  h1 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 22px !important;
+  }
+  h4 {
+    font-size: 12px !important;
+  }
+  h5 {
+    font-size: 14px !important;
+  }
+  h6 {
+    font-size: 26px !important;
+  }
+  p {
+    font-size: 18px !important;
+  }
+  a {
+    font-size: 18px;
+  }
+  .img02 {
+    background-image: url(./PHOTO-03a.png);
+    margin-top: -110px;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 699px) {
+  h1 {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 18px !important;
+  }
+  h4 {
+    font-size: 10px !important;
+  }
+  h5 {
+    font-size: 14px !important;
+  }
+  h6 {
+    font-size: 20px !important;
+  }
+  p {
+    font-size: 12px !important;
+  }
+  a {
+    font-size: 14px;
+  }
+  .img00 {
+    width: 50px !important;
+  }
+  #back {
+    height: 20vh;
+  }
+  #back1 {
+    height: 20vh;
+  }
+  .img02 {
+    background-image: url(./PHOTO-03b.png);
+    margin-top: -60px;
+  }
+}
